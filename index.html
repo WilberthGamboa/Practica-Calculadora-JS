@@ -8,7 +8,8 @@
 </head>
 <body>
     <!-- ahhh don chismoso-->
-    <h1>Prática calculadora JS // SENCILLA :3</h1>
+    <h1>Práctica calculadora JS // SENCILLA :3</h1>
+    <h2>wmgc</h2>
     
     <script>
         var opcion
@@ -20,10 +21,12 @@
             opcion = prompt('1=suma || 2=resta || 3=multiplicación || 4=división')
             opcion = Number(opcion)
             if(opcion<1 || opcion>4){
-                alert("Ni para meter una opción válida sirves, inténtalo otra vez")
+                alert("Número no válido (debe ser entre 1 y 4)")
+            }else{
+                alert("Metiste texto por lo tanto no es válido")
             }
 
-        }while(opcion<1 || opcion>4)
+        }while((opcion<1 || opcion>4) || (isNaN(opcion)))
         
             //Petición de variables
         switch (opcion) {
