@@ -44,7 +44,7 @@ var opcion
                 
         }
 
-        alert("Programa finalizado con éxito :3")
+        alert("Programa finalizado con éxito ")
         
 
 
