@@ -15,7 +15,6 @@ var opcion
             do{
                 respuesta=prompt('¿Continuar?, SI || NO')
                 respuesta = respuesta.toUpperCase()
-                alert(respuesta)
                 if (respuesta=='SI' || respuesta=='SÍ'){
                     return validar= true
                 } else if (respuesta=='NO'){
