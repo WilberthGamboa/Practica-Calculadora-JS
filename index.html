@@ -22,7 +22,7 @@
             opcion = Number(opcion)
             if(opcion<1 || opcion>4){
                 alert("Número no válido (debe ser entre 1 y 4)")
-            }else{
+            }else if (isNaN(opcion)){
                 alert("Metiste texto por lo tanto no es válido")
             }
 
